@@ -44,7 +44,7 @@ core:
       beta_warning_text: "Denne <strong>betaversjonen</strong> er hovudsakleg tiltenkt testing så du kan hjelpe oss med å utvikle Flarum. Den må ikkje brukast til noko viktig."
       contributing_text: "Vil du leite etter programfeil og bidra? <a>Les meir</a>."
       extension_text: "Har du lyst til å utvikle tillegg? <a>Les meir</a>."
-      features_text: "Har du forslag til forbertringar? <a>Fortel oss om det</a>."
+      features_text: "Har du forslag til forbetringar? <a>Fortel oss om det</a>."
       support_text: "Har du funne ein feil? Rapporter det i forumet vårt, under <a>brukarstøtte</a>."
       troubleshooting_text: "Har du problem? <a>Les meir om feilsøking</a>."
       version_text: "Takk for at du prøver Flarum! Du kjører versjon {version}."
