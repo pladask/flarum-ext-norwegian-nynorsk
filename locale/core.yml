@@ -198,7 +198,7 @@ core:
       empty_text: Det ser ikkje ut til å vere nokon diskusjonar her.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Merk som lesen
-      replied_text: "{username} svarte for {ago}"
+      replied_text: "{username} svara for {ago}"
       started_text: "{username} starta diskusjonen for {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
