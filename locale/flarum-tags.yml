@@ -31,9 +31,9 @@ flarum-tags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Tillat emneknaggredigering
+      allow_edit_tags_label: Redigere emneknaggar
       restrict_by_tag_heading: Avgrens til emneknagg
-      tag_discussions_label: Legge til emneknagg i diskusjon
+      tag_discussions_label: Legge inn emneknagg i ein diskusjon
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
