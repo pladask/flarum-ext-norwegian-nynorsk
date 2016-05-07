@@ -15,7 +15,7 @@ flarum-tags:
     edit_tag:
       color_label: Farge
       delete_tag_button: Slett emneknagg
-      delete_tag_confirmation: "Er du sikker på at du vil slette emneknaggen? Tilhøyrande diskusjonar blir IKKJE slettet."
+      delete_tag_confirmation: "Er du sikker på at du vil slette emneknaggen? Tilhøyrande diskusjonar blir IKKJE sletta."
       description_label: Beskriving
       hide_label: Gøym i alle diskusjonar
       name_label: => flarum-tags.ref.name
