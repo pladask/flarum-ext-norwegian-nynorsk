@@ -1,6 +1,6 @@
 # Norwegian Nynorsk Language Pack for Flarum
 
-[Packagist](https://packagist.org/packages/pladask/flarum-ext-norwegian-bokmal) | [![Join the chat at https://gitter.im/pladask/flarum-ext-norwegian](https://badges.gitter.im/pladask/flarum-ext-norwegian.svg)](https://gitter.im/pladask/flarum-ext-norwegian?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[Packagist](https://packagist.org/packages/pladask/flarum-ext-norwegian-nynorsk) | [![Join the chat at https://gitter.im/pladask/flarum-ext-norwegian](https://badges.gitter.im/pladask/flarum-ext-norwegian.svg)](https://gitter.im/pladask/flarum-ext-norwegian?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Installation
 
