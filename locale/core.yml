@@ -95,7 +95,7 @@ core:
       dashboard_text: Informasjon om forumet ditt.
       extensions_button: Tillegg
       extensions_text: Legg til funksjonar og gjer forumet til ditt eige.
-      permissions_button: Rettigheter
+      permissions_button: Løyve
       permissions_text: Velg kven som kan sjå og gjere kva.
 
     # These translations are used in the Permissions page of the admin interface.
@@ -161,7 +161,7 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Skriv eit innlegg …
-      discard_confirmation: "Du har ikkje sendt inn diskusjonen din. Vil du forkaste den?"
+      discard_confirmation: "Du har ikkje sendt inn diskusjonen din. Vil du forkaste han?"
       submit_button: Send inn diskusjon
       title: => core.ref.start_a_discussion
       title_placeholder: Overskrift
@@ -183,7 +183,7 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: Kan ikkje svare
-      cannot_reply_text: Du har ikkje rettighetar til å svare i denne diskusjonen.
+      cannot_reply_text: Du har ikkje løyve til å svare i denne diskusjonen.
       delete_button: => core.ref.delete
       delete_confirmation: "Er du sikker på at du vil slette denne diskusjonen?"
       delete_forever_button: => core.ref.delete_forever
@@ -215,7 +215,7 @@ core:
       email_sent_message: Vi har sendt deg ein e-post med ei lenke du kan følge for å tilbakestille passordet ditt. Sjekk søppelposten din om du ikkje har fått han innn eit minutt eller to.
       not_found_message: Det er ikkje registrert nokon brukar med den e-postadressa.
       submit_button: Skift passord
-      text: Skriv inn e-postadressa di, så sender vi deg ei lenke du kan følge for å skifte passord.
+      text: Skriv inn e-postadressa di, så sender vi deg ei lenke du kan følge for å endre passordet ditt.
       title: Gløymt passord
 
     # These translations are used in the header and session dropdown menu.
@@ -257,7 +257,7 @@ core:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} skifta overskrift"
+      discussion_renamed_text: "{username} endra overskrifta"
       empty_text: Ingen varsel
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
@@ -285,7 +285,7 @@ core:
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: 'Den gamle overskrifta var: "{old}"'
-      discussion_renamed_text: "{username} skifta overskrifta til {new}."
+      discussion_renamed_text: "{username} endra overskrifta til {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} seinare"
@@ -304,7 +304,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Nokon skiftar overskrifta til ein diskusjon eg har starta
+      notify_discussion_renamed_label: Nokon endrar overskrifta til ein diskusjon eg har starta
       privacy_disclose_online_label: La andre sjå det når eg er innlogga
       privacy_heading: Personvern
       title: => core.ref.settings
@@ -361,8 +361,8 @@ core:
     # These translations are displayed as error messages.
     error:
       generic_message: "Oi, noko gjekk gale. Last inn sida på nytt og prøv igjen."
-      not_found_message: Fann ikke ressursen.
-      permission_denied_message: Du har ikke tilgang til å gjere det.
+      not_found_message: Fann ikkje ressursen.
+      permission_denied_message: Du har ikkje tilgang.
       rate_limit_exceeded_message: Du går litt for fort fram. Prøv igjen om nokre sekund.
 
     # These translations are used as suffixes when abbreviating numbers.
@@ -412,7 +412,7 @@ core:
 
         Nokon (forhåpentleg deg!) har registrert seg på {forum} med denne e-postadressa.
 
-        Hvis det var deg, følg denne lenka for å aktivere kontoen:
+        Om det var deg, følg denne lenka for å aktivere kontoen:
         {url}
 
         Om det ikkje var deg, ignorer denne e-posten.
@@ -425,10 +425,10 @@ core:
 
         Nokon (forhåpentleg deg!) har skifta e-postdressa si på {forum} til denne.
 
-        Hvis det var deg, klikk på denne lenka for å bekrefte e-postadressa:
+        Om det var deg, klikk på denne lenka for å bekrefte e-postadressa:
         {url}
 
-        Hvis det ikkje var deg, ignorer denne e-posten.
+        Om det ikkje var deg, ignorer denne e-posten.
       subject: Bekreft ny e-postadresse
 
     # These translations are used in emails sent when users ask to reset their passwords.
@@ -441,7 +441,7 @@ core:
         Om det var deg, klikk på denne lenka for å stille om passordet:
         {url}
 
-        Hvis du ikkje vil skifte passord, ignorer denne e-posten.
+        Om du ikkje vil endre passord, ignorer denne e-posten.
       subject: => core.ref.reset_your_password
 
   ##
