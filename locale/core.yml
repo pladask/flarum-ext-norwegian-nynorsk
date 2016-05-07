@@ -9,32 +9,32 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "Hvis du er utvikler, kan du <a>lese dokumentasjonen</a> og lage egne tillegg."
-      install_text: "I mellomtiden kan du se etter tillegg på <a>Flarum-sidene</a> og installere dem manuelt med Composer."
-      temporary_text: "En vakker dag kan du enkelt installere tillegg herfra. Vi jobber med saken!"
+      developer_text: "Utviklarar kan <a>lese dokumentasjonen</a> og lage eigne tillegg."
+      install_text: "I mellomtida kan du finne tillegg på <a>Flarum-sidene</a> og installere dei manuelt med Composer."
+      temporary_text: "Ein vakker dag vil du kunne installere tillegg frå denne sida. Vi jobbar med saken!"
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Farget topplinje
+      colored_header_label: Farga topplinje
       colors_heading: Farger
-      colors_text: "Velg to farger til forumet ditt. Den første brukes til uthevinger, den andre til bakgrunnselementer."
-      custom_styles_heading: Egne stiler
-      custom_styles_text: Tilpass forumet med egen LESS/CSS i tillegg til standardstilene i Flarum.
+      colors_text: "Vel to farger til forumet ditt. Den første brukast til uthevingar, den andre til bakgrunnselement."
+      custom_styles_heading: Eigne stilar
+      custom_styles_text: Tilpass forumet med eigen LESS/CSS i tillegg til standardstilane i Flarum.
       dark_mode_label: Mørk modus
-      edit_css_button: Rediger egen CSS
-      enter_hex_message: Legg inn en heksadesimal fargekode.
+      edit_css_button: Rediger eigen CSS
+      enter_hex_message: Legg inn ein heksadesimal fargekode.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Standardspråk
-      forum_description_heading: Beskrivelse av forumet
-      forum_description_text: Legg inn en kort setning som beskriver forumet. Den kommer med i meta-taggen og vises i søkemotorer.
+      forum_description_heading: Beskriving av forumet
+      forum_description_text: Legg inn ei kort setning som beskriv forumet. Den kjem med i meta-taggen og visast i søkemotorar.
       forum_title_heading: Forumtittel
       home_page_heading: Startside
-      home_page_text: "Velg hvilken side ser først når de besøker forumet ditt. Hvis du legger inn en egen verdi, skal banen være relativ til forumrotkatalogen."
-      saved_message: Endringene ble lagret.
+      home_page_text: "Velg kva side brukarar ser først når dei kjem til forumet ditt. Om du legg inn ein eigen verdi, skal banen vere relativ til forumrotkatalogen."
+      saved_message: Endringane vart lagra.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Vignett
       welcome_banner_text: Velg hva som skal stå i vignetten på siden «Alle diskusjoner». Bruk den til å ønske velkommen.
