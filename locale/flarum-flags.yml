@@ -15,22 +15,22 @@ flarum-flags:
     # These translations are used in the Flags Settings modal dialog.
     settings:
       guidelines_url_label: URL til retningslinjer
-      title: Rapporteringsinnstillinger
+      title: Rapporteringsinnstillingar
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: Takk for at du rapporterte dette innlegget. Moderatorene vil se på saken.
+      confirmation_message: Takk for at du rapporterte dette innlegget. Moderatorane vil sjå på saken.
       dismiss_button: => core.ref.okay
-      reason_inappropriate_label: Upassende
-      reason_inappropriate_text: "Dette innlegget er støtende, sjikanerende eller bryter med <a>retningslinjene våre</a>."
-      reason_off_topic_label: "Ikke relevant"
-      reason_off_topic_text: Dette innlegget passer ikke inn i diskusjonen og bør flyttes.
-      reason_other_label: Annet
+      reason_inappropriate_label: Upassande
+      reason_inappropriate_text: "Dette innlegget er støtande, sjikanerande eller bryt med <a>retningslinjene våre</a>."
+      reason_off_topic_label: "Ikkje relevant"
+      reason_off_topic_text: Dette innlegget passar ikkje inn i diskusjonen og bør flyttast.
+      reason_other_label: Anna
       reason_spam_label: Søppel
-      reason_spam_text: Dette innlegget inneholder reklame.
+      reason_spam_text: Dette innlegget inneheld reklame.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
@@ -44,8 +44,8 @@ flarum-flags:
     # These translations are used by the frame displayed around flagged posts.
     post:
       dismiss_flag_tooltip: Avslå rapport
-      flagged_by_text: "{username} flagged"
-      flagged_by_with_reason_text: "{username} flagged as {reason}"
+      flagged_by_text: "{username} rapporterte"
+      flagged_by_with_reason_text: "{username} rapporterte som {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
