@@ -175,31 +175,31 @@ core:
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "Du har ikke sendt inn svaret ditt. Vil du forkaste det?"
+      discard_confirmation: "Du har ikkje sendt inn svaret ditt. Vil du forkaste det?"
       posted_message: Svaret ditt er sendt.
       submit_button: Send inn svar
       view_button: Vis
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Kan ikke svare
-      cannot_reply_text: Du har ikke rettigheter til å svare i denne diskusjonen.
+      cannot_reply_button: Kan ikkje svare
+      cannot_reply_text: Du har ikkje rettighetar til å svare i denne diskusjonen.
       delete_button: => core.ref.delete
-      delete_confirmation: "Er du sikkre på at du vil slette denne diskusjonen?"
+      delete_confirmation: "Er du sikker på at du vil slette denne diskusjonen?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Logg inn for å svare
-      rename_button: Skift navn
-      rename_text: "Skriv inn en ny tittel på denne diskusjonen:"
+      rename_button: Skift namn
+      rename_text: "Skriv inn ein ny tittel på denne diskusjonen:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Det ser ikke ut til å være noen diskusjoner her.
+      empty_text: Det ser ikkje ut til å være nokon diskusjonar her.
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: Merk som lest
+      mark_as_read_tooltip: Merk som lesen
       replied_text: "{username} svarte for {ago}"
-      started_text: "{username} startet diskusjonen for {ago}"
+      started_text: "{username} starta diskusjonen for {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -212,11 +212,11 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: Vi har sendt deg en e-post med en lenke du kan følge for å tilbakestille passordet ditt. Sjekk søppelposten din om du ikke har fått den innen et minutt eller to.
-      not_found_message: Det er ikke registrert noen bruker med den e-postadressen.
+      email_sent_message: Vi har sendt deg ein e-post med ei lenke du kan følge for å tilbakestille passordet ditt. Sjekk søppelposten din om du ikkje har fått han innn eit minutt eller to.
+      not_found_message: Det er ikkje registrert nokon brukar med den e-postadressa.
       submit_button: Skift passord
-      text: Skriv inn e-postadressen din, så sender vi deg en lenke du kan følge for å skifte passord.
-      title: Glemt passord
+      text: Skriv inn e-postadressa di, så sender vi deg ei lenke du kan følge for å skifte passord.
+      title: Gløymt passord
 
     # These translations are used in the header and session dropdown menu.
     header:
@@ -231,8 +231,8 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Kan ikke starte diskusjon
-      mark_all_as_read_confirmation: "Er du sikker på at du vil merke alle diskusjoner som lest?"
+      cannot_start_discussion_button: Kan ikkje starte diskusjon
+      mark_all_as_read_confirmation: "Er du sikker på at du vil merke alle diskusjonar som lesne?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Oppdater
       start_discussion_button: => core.ref.start_a_discussion
@@ -240,25 +240,25 @@ core:
     # These translations are used by the sorting control above the discussion list.
     index_sort:
       latest_button: Sist aktive
-      newest_button: Nyeste
+      newest_button: Nyaste
       oldest_button: Eldste
       relevance_button: Relevans
       top_button: Topp
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Glemt passordet?"
-      invalid_login_message: Feil brukernavn eller passord.
+      forgot_password_link: "Gløymt passordet?"
+      invalid_login_message: Feil brukarnamn eller passord.
       password_placeholder: => core.ref.password
-      sign_up_text: "Er du ikke medlem? <a>Registrer deg</a>"
+      sign_up_text: "Er du ikkje medlem? <a>Registrer deg</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Brukernavn eller e-postadresse
+      username_or_email_placeholder: Brukarnamn eller e-postadresse
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} skiftet tittel"
-      empty_text: Ingen varsler
+      discussion_renamed_text: "{username} skifta tittel"
+      empty_text: Ingen varsel
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
@@ -277,24 +277,24 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Nå
+      now_link: No
       original_post_link: Første innlegg
-      unread_text: "{count} ulest(e)"
+      unread_text: "{count} ulesne"
       viewing_text: "{index} av {count} innlegg|{index} av {count} innlegg"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: 'Den gamle tittelen var: "{old}"'
-      discussion_renamed_text: "{username} skiftet tittelen til {new}."
+      discussion_renamed_text: "{username} skifta tittelen til {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} senere"
+      time_lapsed_text: "{period} seinare"
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Søk etter "{query}" i alle diskusjoner'
+      all_discussions_button: 'Søk etter "{query}" i alle diskusjonar'
       discussions_heading: => core.ref.discussions
-      users_heading: Brukere
+      users_heading: Brukarar
 
     # These translations are used in the Settings page.
     settings:
@@ -304,8 +304,8 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Noen skifter tittel på en diskusjon jeg har startet
-      privacy_disclose_online_label: La andre se det når jeg er innlogget
+      notify_discussion_renamed_label: Nokon skiftar tittel på ein diskusjon eg har starta
+      privacy_disclose_online_label: La andre sjå det når eg er innlogga
       privacy_heading: Personvern
       title: => core.ref.settings
 
@@ -313,38 +313,38 @@ core:
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Er du allerede medlem? <a>Logg inn</a>"
+      log_in_text: "Er du allereie medlem? <a>Logg inn</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Velkommeen, {username}!"
+      welcome_text: "Velkommen, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: Slett
       avatar_upload_button: Last opp
       avatar_upload_tooltip: Last opp ny avatar
-      bio_placeholder: Skriv noe om deg selv
+      bio_placeholder: Skriv noko om deg sjølv
       discussions_link: => core.ref.discussions
       in_discussion_text: "I {discussion}"
-      joined_date_text: "Ble medlem for {ago}"
-      online_text: Innlogget
+      joined_date_text: "Vart medlem for {ago}"
+      online_text: Innlogga
       posts_load_more_button: => core.ref.load_more
       posts_link: Innlegg
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Valg
+      button: Val
       delete_button: => core.ref.delete
-      delete_confirmation: "Er du sikker på at du vil slette denne brukeren? Alle innleggene hans/hennes blir slettet."
+      delete_confirmation: "Er du sikker på at du vil slette denne brukaren? Alle innlegga hans/hennar blir sletta."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Send bekreftelses-e-post på nytt
+      resend_button: Send e-post for stadfesting på nytt
       sent_message: Sendt
 
   # Translations in this namespace are used by the forum and admin interfaces.
@@ -356,14 +356,14 @@ core:
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[slettet]"
+      deleted_text: "[sletta]"
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oi, noe gikk galt. Last inn siden på nytt og prøv igjen."
-      not_found_message: Fant ikke ressursen.
-      permission_denied_message: Du har ikke tilgang til å gjøre det.
-      rate_limit_exceeded_message: Du går litt for fort fram. Prøv igjen om noen sekunder.
+      generic_message: "Oi, noko gjekk gale. Last inn sida på nytt og prøv igjen."
+      not_found_message: Fann ikke ressursen.
+      permission_denied_message: Du har ikke tilgang til å gjere det.
+      rate_limit_exceeded_message: Du går litt for fort fram. Prøv igjen om nokre sekund.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -381,14 +381,14 @@ core:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: Denne siden fungerer best i en moderne nettleser med JavaScript aktivert.
-      load_error_message: En feil oppsto ved innlasting av fullversjonen av denne siden.
-      loading_text: Laster inn …
+      javascript_disabled_message: Denne siden fungerer best i ein moderne nettlesar med JavaScript aktivert.
+      load_error_message: Noko gjekk skeis da fullversjonen av denne sida skulle lastast inn.
+      loading_text: Lastar inn …
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Previous Page
+      previous_page_button: Førre side
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -399,7 +399,7 @@ core:
     reset:
       confirm_password_label: => core.ref.confirm_password
       password_label: => core.ref.password
-      submit_button: Tilbakestill passord
+      submit_button: Still om passord
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in emails sent by the forum.
@@ -410,12 +410,12 @@ core:
       body: |
         Hei, {username}!
 
-        Noen (forhåpentligvis deg!) har registrert seg på {forum} med denne e-postadressen.
+        Nokon (forhåpentleg deg!) har registrert seg på {forum} med denne e-postadressa.
 
-        Hvis det var deg, følg denne lenken for å aktivere kontoen:
+        Hvis det var deg, følg denne lenka for å aktivere kontoen:
         {url}
 
-        Hvis det ikke var deg, ignorer denne e-posten.
+        Om det ikkje var deg, ignorer denne e-posten.
       subject: Aktiver kontoen din
 
     # These translations are used in emails sent when users change their email address.
@@ -423,12 +423,12 @@ core:
       body: |
         Hei, {username}!
 
-        Noen (forhåpentligvis deg!) har skiftet e-postdressen sin på {forum} til denne.
+        Nokon (forhåpentleg deg!) har skifta e-postdressa si på {forum} til denne.
 
-        Hvis det var deg, klikk på denne lenken for å bekrefte e-postadressen:
+        Hvis det var deg, klikk på denne lenka for å bekrefte e-postadressa:
         {url}
 
-        Hvis det ikke var deg, ignorer denne e-posten.
+        Hvis det ikkje var deg, ignorer denne e-posten.
       subject: Bekreft ny e-postadresse
 
     # These translations are used in emails sent when users ask to reset their passwords.
@@ -436,12 +436,12 @@ core:
       body: |
         Hei, {username}!
 
-        Noen (forhåpentligvis deg!) har bedt om å tilbakestille passordet ditt på {forum}.
+        Nokon (forhåpentleg deg!) har bedt om å stille om passordet ditt på {forum}.
 
-        Hvis det var deg, klikk på denne lenken for å tilbakestille passordet:
+        Om det var deg, klikk på denne lenka for å stille om passordet:
         {url}
 
-        Hvis du ikke vil skifte passord, ignorer denne e-posten.
+        Hvis du ikkje vil skifte passord, ignorer denne e-posten.
       subject: => core.ref.reset_your_password
 
   ##
@@ -450,34 +450,34 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: Alle diskusjoner
+    all_discussions: Alle diskusjonar
     change_email: Skift e-postadresse
     change_password: Skift passord
     confirm_password: Bekreft passord
-    confirmation_email_sent: "Vi har sendt en bekreftelses-e-post til {email}. Hvis den ikke dukker opp snart, sjekk søppelposten din."
+    confirmation_email_sent: "Vi har sendt ein e-post til {email} for stadfesting. Om den ikkje kjem snart, sjekk søppelposten din."
     delete: Slett
     delete_forever: Slett permanent
-    discussions: Diskusjoner
+    discussions: Diskusjonar
     edit: Rediger
     email: E-post
-    load_more: Last inn mer
+    load_more: Last inn meir
     log_in: Logg inn
     log_out: Logg ut
-    mark_all_as_read: Merk alt som lest
+    mark_all_as_read: Merk alt som lese
     next_page: Neste side
-    notifications: Varsler
+    notifications: Varsel
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Passord
     reply: Svar                                  # Referenced by flarum-mentions.yml
     reset_your_password: Tilbakestill passordet ditt
-    restore: Gjenopprett
-    save_changes: Lagre endringer                # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Innstillinger
+    restore: Rett opp att
+    save_changes: Lagre endringar                # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Innstillingar
     sign_up: Registrer deg
-    some_others: "{count} annen|{count} andre"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start en diskusjon
-    username: Brukernavn
-    write_a_reply: "Skriv et svar …"
+    some_others: "{count} anna|{count} andre"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Start ein diskusjon
+    username: Brukarnamn
+    write_a_reply: "Skriv eit svar …"
     you: Du                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
@@ -487,10 +487,10 @@ core:
   # Translations in this namespace are used to translate default group names.
   group:
     admin: Administrator
-    admins: Administratorer
+    admins: Administratorar
     guest: Gjest
-    guests: Gjester
+    guests: Gjestar
     member: Medlem
-    members: Medlemmer
+    members: Medlemmar
     mod: Moderator
-    mods: Moderatorer
+    mods: Moderatorar
