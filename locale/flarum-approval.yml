@@ -10,14 +10,14 @@ flarum-approval:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       approve_posts_label: Godkjenn innlegg
-      reply_without_approval_label: Svar uten å godkjenne
+      reply_without_approval_label: Svar utan å godkjenne
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed in the post header.
     post:
-      awaiting_approval_text: Venter på godkjenning
+      awaiting_approval_text: Ventar på godkjenning
 
     # These translations are used by the post control buttons.
     post_controls:
