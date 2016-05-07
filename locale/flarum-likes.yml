@@ -17,21 +17,21 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "{username} liker ditt innlegg"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} likar innlegget ditt"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
       like_link: Lik dette
-      liked_by_self_text: "{users} liker dette."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users} liker dette.|{users} liker dette."
+      liked_by_self_text: "{users} likar dette."  # Can be pluralized to agree with the number of users!
+      liked_by_text: "{users} likar dette.|{users} likar dette."
       others_link: => core.ref.some_others
-      unlike_link: Ikke lik dette
+      unlike_link: Ikkje lik dette
       you_text: => core.ref.you
 
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
-      title: Brukere som liker dette
+      title: Brukarar som likar dette
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: Noen liker et av mine innlegg
+      notify_post_liked_label: Nokon likar eit av innlegga mine
