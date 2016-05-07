@@ -100,30 +100,30 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Skifte overskrift til innlegg
-      allow_post_editing_label: Redigere innlegg
+      allow_renaming_label: Redigere overskrifta til eit innlegg
+      allow_post_editing_label: Redigere eit innlegg
       create_heading: Skrive
-      delete_discussions_forever_label: Slette diskusjonar permanent
-      delete_discussions_label: Slette diskusjonar
-      delete_posts_forever_label: Slette innlegg permanent
-      edit_and_delete_posts_label: Redigere og slette innlegg
+      delete_discussions_forever_label: Slette ein diskusjon permanent
+      delete_discussions_label: Slette ein diskusjon
+      delete_posts_forever_label: Slette eit innlegg permanent
+      edit_and_delete_posts_label: Redigere og slette eit innlegg
       global_heading: Globalt
       moderate_heading: Moderere
       new_group_button: Ny gruppe
       participate_heading: Delta
       read_heading: Lese
-      rename_discussions_label: Skifte overskrift til diskusjonar
-      reply_to_discussions_label: Svare på diskusjonar
+      rename_discussions_label: Redigere overskrift til ein diskusjon
+      reply_to_discussions_label: Svare på ein diskusjon
       sign_up_label: Registrering
-      start_discussions_label: Starte diskusjonar
-      view_discussions_label: Lese diskusjonar
+      start_discussions_label: Starte ein diskusjon
+      view_discussions_label: Lese ein diskusjon
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Alltid
       allow_some_minutes_button: "I {count} minutt|I {count} minutt"
       allow_ten_minutes_button: I 10 minutt
-      allow_until_reply_button: Til neste svar
+      allow_until_reply_button: Fram til det kjem eit svar
       everyone_button: Alle
       members_button: => core.group.members
       signup_closed_button: Lukka
