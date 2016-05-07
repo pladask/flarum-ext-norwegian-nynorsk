@@ -1,7 +1,7 @@
 {
-    "name": "pladask/flarum-ext-norwegian-bokmal",
+    "name": "pladask/flarum-ext-norwegian-nynorsk",
     "type": "flarum-extension",
-    "description": "Norwegian Bokmål language pack.",
+    "description": "Norwegian Nynorsk language pack.",
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
@@ -9,7 +9,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "Norwegian Bokmål",
+            "title": "Norwegian Nynorsk",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#ef2b2d",
@@ -18,8 +18,8 @@
             }
         },
         "flarum-locale": {
-            "code": "nb",
-            "title": "Norsk bokmål"
+            "code": "nn",
+            "title": "Norsk nynorsk"
         }
     }
 }
