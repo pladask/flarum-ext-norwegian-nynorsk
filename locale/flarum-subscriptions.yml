@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Ikke følg
-      unignore_button: Ikke ignorer
+      unfollow_button: Ikkje følg
+      unignore_button: Ikkje ignorer
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,12 +24,12 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} skrev"
+      new_post_text: "{username} skreiv"
 
     # These translations are used in the Settings page.
     settings:
-      forum_follow_after_reply_label: Automatisk følg diskusjoner jeg skriver et innlegg i
-      notify_new_post_label: Noen skriver et innlegg i en diskusjon jeg følger
+      forum_follow_after_reply_label: Automatisk følg diskusjonar eg skriv eit innlegg i
+      notify_new_post_label: Nokon skriv eit innlegg i ein diskusjon eg følger
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
@@ -37,11 +37,11 @@ flarum-subscriptions:
       following_button: => flarum-subscriptions.ref.following
       following_text: Varsle meg om alle svar.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Aldri varsle meg. Gjem fra diskusjonslisten.
-      not_following_button: Følger ikke
-      not_following_text: "Bare varsle meg når jeg blir @merket."
-      notify_alert_tooltip: Få et forumvarsel når det kommer nye innlegg
-      notify_email_tooltip: Få en e-post når det kommer nye innlegg
+      ignoring_text: Aldri varsle meg. Gøym frå diskusjonslista.
+      not_following_button: Følger ikkje
+      not_following_text: "Berre varsle meg når eg blir @merka."
+      notify_alert_tooltip: Få eit forumvarsel når det kjem nye innlegg
+      notify_email_tooltip: Få ein e-post når det kjem nye innlegg
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
