@@ -33,7 +33,7 @@ core:
       forum_description_text: Legg inn ei kort setning som beskriv forumet. Den kjem med i meta-taggen og visast i søkemotorar.
       forum_title_heading: Forumnamn
       home_page_heading: Startside
-      home_page_text: "Vel kva side brukarar ser først når dei kjem til forumet ditt. Om du legg inn ein eigen verdi, skal banen vere relativ til forumrotkatalogen."
+      home_page_text: "Vel kva side brukarar ser først når dei kjem til forumet ditt. Om du legg inn ein eigen verdi, skal banen vere relativ til rotkatalogen til forumet."
       saved_message: Endringane vart lagra.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Vignett
@@ -212,7 +212,7 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: Vi har sendt deg ein e-post med ei lenke du kan følge for å tilbakestille passordet ditt. Sjekk søppelposten din om du ikkje har fått han innn eit minutt eller to.
+      email_sent_message: Vi har sendt deg ein e-post med ei lenke du kan følge for å tilbakestille passordet ditt. Sjekk søppelposten din om du ikkje har fått han innan eit minutt eller to.
       not_found_message: Det er ikkje registrert nokon brukar med den e-postadressa.
       submit_button: Skift passord
       text: Skriv inn e-postadressa di, så sender vi deg ei lenke du kan følge for å endre passordet ditt.
