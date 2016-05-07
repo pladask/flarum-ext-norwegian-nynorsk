@@ -31,7 +31,7 @@ core:
       default_language_heading: Standardspråk
       forum_description_heading: Beskriving av forumet
       forum_description_text: Legg inn ei kort setning som beskriv forumet. Den kjem med i meta-taggen og visast i søkemotorar.
-      forum_title_heading: Forumtittel
+      forum_title_heading: Forumnamn
       home_page_heading: Startside
       home_page_text: "Velg kva side brukarar ser først når dei kjem til forumet ditt. Om du legg inn ein eigen verdi, skal banen vere relativ til forumrotkatalogen."
       saved_message: Endringane vart lagra.
@@ -90,7 +90,7 @@ core:
       appearance_button: Utsjånad
       appearance_text: "Juster farger, logo og anna."
       basics_button: Generelt
-      basics_text: "Velg tittel, språk og andre generelle innstillingar."
+      basics_text: "Velg namn, språk og andre generelle innstillingar."
       dashboard_button: Oversikt
       dashboard_text: Informasjon om forumet ditt.
       extensions_button: Tillegg
@@ -100,8 +100,8 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: La brukarar skifte namn på innlegg
-      allow_post_editing_label: La brukarar redigere innlegg
+      allow_renaming_label: Skifte overskrift til innlegg
+      allow_post_editing_label: Redigere innlegg
       create_heading: Skrive
       delete_discussions_forever_label: Slette diskusjonar permanent
       delete_discussions_label: Slette diskusjonar
@@ -112,7 +112,7 @@ core:
       new_group_button: Ny gruppe
       participate_heading: Delta
       read_heading: Lese
-      rename_discussions_label: Skifte namn på diskusjonar
+      rename_discussions_label: Skifte overskrift til diskusjonar
       reply_to_discussions_label: Svare på diskusjonar
       sign_up_label: Registrering
       start_discussions_label: Starte diskusjonar
@@ -164,7 +164,7 @@ core:
       discard_confirmation: "Du har ikkje sendt inn diskusjonen din. Vil du forkaste den?"
       submit_button: Send inn diskusjon
       title: => core.ref.start_a_discussion
-      title_placeholder: Tittel
+      title_placeholder: Overskrift
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -188,8 +188,8 @@ core:
       delete_confirmation: "Er du sikker på at du vil slette denne diskusjonen?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Logg inn for å svare
-      rename_button: Skift namn
-      rename_text: "Skriv inn ein ny tittel på denne diskusjonen:"
+      rename_button: Skift overskrift
+      rename_text: "Skriv inn ei ny overskrift til denne diskusjonen:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -257,7 +257,7 @@ core:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} skifta tittel"
+      discussion_renamed_text: "{username} skifta overskrift"
       empty_text: Ingen varsel
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
@@ -284,8 +284,8 @@ core:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'Den gamle tittelen var: "{old}"'
-      discussion_renamed_text: "{username} skifta tittelen til {new}."
+      discussion_renamed_old_tooltip: 'Den gamle overskrifta var: "{old}"'
+      discussion_renamed_text: "{username} skifta overskrifta til {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} seinare"
@@ -304,7 +304,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Nokon skiftar tittel på ein diskusjon eg har starta
+      notify_discussion_renamed_label: Nokon skiftar overskrifta til ein diskusjon eg har starta
       privacy_disclose_online_label: La andre sjå det når eg er innlogga
       privacy_heading: Personvern
       title: => core.ref.settings
