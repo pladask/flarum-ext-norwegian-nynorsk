@@ -1,10 +1,8 @@
-# Norwegian Bokmål Language Pack for Flarum
-
-[![Join the chat at https://gitter.im/pladask/flarum-ext-norwegian-bokmal](https://badges.gitter.im/pladask/flarum-ext-norwegian-bokmal.svg)](https://gitter.im/pladask/flarum-ext-norwegian-bokmal?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Norwegian Nynorsk Language Pack for Flarum
 
 ## Installation
 
-`composer require pladask/flarum-ext-norwegian-bokmal`
+`composer require pladask/flarum-ext-norwegian-nynorsk
 
 ### Compatibility
 
@@ -12,4 +10,8 @@
 
 ### License
 
-Released under the MIT License. Please see the [LICENSE](https://github.com/pladask/flarum-ext-norwegian-bokmal/blob/master/LICENSE) file.
+Released under the MIT License. Please see the [LICENSE](https://github.com/pladask/flarum-ext-norwegian-nynorsk/blob/master/LICENSE) file.
+
+### See also
+
+[Norwegian Bokmål Language Pack for Flarum](https://github.com/pladask/flarum-ext-norwegian-bokmal)
