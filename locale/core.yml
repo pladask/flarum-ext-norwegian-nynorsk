@@ -195,7 +195,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Det ser ikkje ut til å være nokon diskusjonar her.
+      empty_text: Det ser ikkje ut til å vere nokon diskusjonar her.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Merk som lesen
       replied_text: "{username} svarte for {ago}"
