@@ -33,11 +33,11 @@ core:
       forum_description_text: Legg inn ei kort setning som beskriv forumet. Den kjem med i meta-taggen og visast i søkemotorar.
       forum_title_heading: Forumnamn
       home_page_heading: Startside
-      home_page_text: "Velg kva side brukarar ser først når dei kjem til forumet ditt. Om du legg inn ein eigen verdi, skal banen vere relativ til forumrotkatalogen."
+      home_page_text: "Vel kva side brukarar ser først når dei kjem til forumet ditt. Om du legg inn ein eigen verdi, skal banen vere relativ til forumrotkatalogen."
       saved_message: Endringane vart lagra.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Vignett
-      welcome_banner_text: Velg kva som skal stå i vignetten på sida «Alle diskusjonar». Bruk han til å ønske velkommen.
+      welcome_banner_text: Vel kva som skal stå i vignetten på sida «Alle diskusjonar». Bruk han til å ønske velkommen.
 
     # These translations are used in the Dashboard page.
     dashboard:
