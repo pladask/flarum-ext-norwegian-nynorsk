@@ -90,13 +90,13 @@ core:
       appearance_button: Utsjånad
       appearance_text: "Juster farger, logo og anna."
       basics_button: Generelt
-      basics_text: "Velg namn, språk og andre generelle innstillingar."
+      basics_text: "Vel namn, språk og andre generelle innstillingar."
       dashboard_button: Oversikt
       dashboard_text: Informasjon om forumet ditt.
       extensions_button: Tillegg
       extensions_text: Legg til funksjonar og gjer forumet til ditt eige.
       permissions_button: Løyve
-      permissions_text: Velg kven som kan sjå og gjere kva.
+      permissions_text: Vel kven som kan sjå og gjere kva.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
