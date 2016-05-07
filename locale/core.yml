@@ -37,35 +37,35 @@ core:
       saved_message: Endringane vart lagra.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Vignett
-      welcome_banner_text: Velg hva som skal stå i vignetten på siden «Alle diskusjoner». Bruk den til å ønske velkommen.
+      welcome_banner_text: Velg kva som skal stå i vignetten på sida «Alle diskusjonar». Bruk han til å ønske velkommen.
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "Denne <strong>betaversjonen</strong> er primært tiltenkt testing så du kan hjelpe oss med å utvikle Flarum. Den må ikke brukes til noe viktig."
-      contributing_text: "Vil du lete etter programfeil og bidra? <a>Les mer</a>."
-      extension_text: "Har du lyst til å utvikle tillegg? <a>Les mer</a>."
-      features_text: "Har du forslag til forberdringer? <a>Fortell oss om det</a>."
-      support_text: "Har du funnet en feil? Rapporter det i forumet vårt, under <a>brukerstøtte</a>."
-      troubleshooting_text: "Har du problemer? <a>Les mer om feilsøking</a>."
+      beta_warning_text: "Denne <strong>betaversjonen</strong> er hovudsakleg tiltenkt testing så du kan hjelpe oss med å utvikle Flarum. Den må ikkje brukast til noko viktig."
+      contributing_text: "Vil du leite etter programfeil og bidra? <a>Les meir</a>."
+      extension_text: "Har du lyst til å utvikle tillegg? <a>Les meir</a>."
+      features_text: "Har du forslag til forbertringar? <a>Fortel oss om det</a>."
+      support_text: "Har du funne ein feil? Rapporter det i forumet vårt, under <a>brukarstøtte</a>."
+      troubleshooting_text: "Har du problem? <a>Les meir om feilsøking</a>."
       version_text: "Takk for at du prøver Flarum! Du kjører versjon {version}."
       welcome_text: "Velkommen til Flarum Beta!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Endre utseendet til forumet ditt ved å legge til din egen LESS/CSS-kode over <a>standardstilene</a>."
+      customize_text: "Endre utsjånaden til forumet ditt ved å legge til din eigen LESS/CSS-kode over <a>standardstilane</a>."
       submit_button: => core.ref.save_changes
-      title: Rediger egen CSS
+      title: Rediger eigen CSS
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: Farge
       delete_button: Slett gruppe
-      delete_confirmation: "Er du sikker på at du vil slette denne gruppen? Medlemmene blir IKKE slettet."
+      delete_confirmation: "Er du sikker på at du vil slette denne gruppa? Medlemmane blir IKKJE sletta."
       icon_label: Ikon
-      icon_text: "Skriv inn navnet på en <a>FontAwesome</a>-ikonklasse <em>uten</em> prefikset <code>fa-</code>."
-      name_label: Navn
-      plural_placeholder: Flertall (f.eks. Moderatorer)
-      singular_placeholder: Entall (f.eks. Moderator)
+      icon_text: "Skriv inn namnet på ein <a>FontAwesome</a>-ikonklasse <em>utan</em> prefikset <code>fa-</code>."
+      name_label: Namn
+      plural_placeholder: Fleirtal (f.eks. Moderatorar)
+      singular_placeholder: Eintal (f.eks. Moderator)
       submit_button: => core.ref.save_changes
       title: Lag gruppe
 
@@ -83,28 +83,28 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Et øyeblikk …
+      title: Vent litt …
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Utseende
-      appearance_text: "Juster farger, logo og annet."
+      appearance_button: Utsjånad
+      appearance_text: "Juster farger, logo og anna."
       basics_button: Generelt
-      basics_text: "Velg tittel, språk og andre generelle innstillinger."
+      basics_text: "Velg tittel, språk og andre generelle innstillingar."
       dashboard_button: Oversikt
       dashboard_text: Informasjon om forumet ditt.
       extensions_button: Tillegg
-      extensions_text: Legg til funksjoner og gjør forumet til ditt eget.
+      extensions_text: Legg til funksjonar og gjer forumet til ditt eige.
       permissions_button: Rettigheter
-      permissions_text: Velg hvem som kan se og gjøre hva.
+      permissions_text: Velg kven som kan sjå og gjere kva.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: La brukere skifte navn på innlegg
-      allow_post_editing_label: La brukere redigere innlegg
+      allow_renaming_label: La brukarar skifte namn på innlegg
+      allow_post_editing_label: La brukarar redigere innlegg
       create_heading: Skrive
-      delete_discussions_forever_label: Slette diskusjoner permanent
-      delete_discussions_label: Slette diskusjoner
+      delete_discussions_forever_label: Slette diskusjonar permanent
+      delete_discussions_label: Slette diskusjonar
       delete_posts_forever_label: Slette innlegg permanent
       edit_and_delete_posts_label: Redigere og slette innlegg
       global_heading: Globalt
@@ -112,22 +112,22 @@ core:
       new_group_button: Ny gruppe
       participate_heading: Delta
       read_heading: Lese
-      rename_discussions_label: Skifte navn på diskusjoner
-      reply_to_discussions_label: Svare på diskusjoner
+      rename_discussions_label: Skifte namn på diskusjonar
+      reply_to_discussions_label: Svare på diskusjonar
       sign_up_label: Registrering
-      start_discussions_label: Starte diskusjoner
-      view_discussions_label: Lese diskusjoner
+      start_discussions_label: Starte diskusjonar
+      view_discussions_label: Lese diskusjonar
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Alltid
-      allow_some_minutes_button: "I {count} minutt|I {count} minutter"
-      allow_ten_minutes_button: I 10 minutter
+      allow_some_minutes_button: "I {count} minutt|I {count} minutt"
+      allow_ten_minutes_button: I 10 minutt
       allow_until_reply_button: Til neste svar
       everyone_button: Alle
       members_button: => core.group.members
-      signup_closed_button: Lukket
-      signup_open_button: Åpen
+      signup_closed_button: Lukka
+      signup_open_button: Open
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -141,7 +141,7 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_label: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
-      incorrect_password_message: Du skrev inn feil passord.
+      incorrect_password_message: Du skreiv inn feil passord.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -160,16 +160,16 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Skriv et innlegg …
-      discard_confirmation: "Du har ikke sendt inn diskusjonen din. Vil du forkaste den?"
+      body_placeholder: Skriv eit innlegg …
+      discard_confirmation: "Du har ikkje sendt inn diskusjonen din. Vil du forkaste den?"
       submit_button: Send inn diskusjon
       title: => core.ref.start_a_discussion
       title_placeholder: Tittel
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "Du har ikke lagret endringene dine. Vil du forkaste dem?"
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "Du har ikkje lagra endringane dine. Vil du forkaste dei?"
+      post_link: "Innlegg #{number} i {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
