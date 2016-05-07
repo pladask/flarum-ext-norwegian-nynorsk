@@ -10,13 +10,13 @@ flarum-akismet:
     # These translations are used in the Akismet Settings modal dialog.
     akismet_settings:
       api_key_label: API Key
-      title: Akismet-innstillinger
+      title: Akismet-innstillingar
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      akismet_flagged_text: Akismet merket dette som søppel
-      not_spam_button: Ikke søppel
+      akismet_flagged_text: Akismet merka dette som søppel
+      not_spam_button: Ikkje søppel
 
