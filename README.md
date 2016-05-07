@@ -14,4 +14,4 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/plad
 
 ### See also
 
-[Norwegian Bokmål Language Pack for Flarum](https://github.com/pladask/flarum-ext-norwegian-bokmal)
+- [Norwegian Bokmål Language Pack for Flarum](https://github.com/pladask/flarum-ext-norwegian-bokmal)
