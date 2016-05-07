@@ -9,25 +9,25 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: Steng ut brukarar
+      suspend_users_label: Sperre brukere
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: Steng ut permanent
-      limited_time_label: Steng ut i ei periode …
+      indefinitely_label: Sperr permanent
+      limited_time_label: Sperr i ei periode …
       limited_time_days_text: " dagar"
-      not_suspended_label: Ikkje stengd ut
-      status_heading: Status for utestenging
+      not_suspended_label: Ikkje sperra
+      status_heading: Status for sperring
       submit_button: => core.ref.save_changes
-      title: "Steng ut {username}"
+      title: "Sperr {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: Stengd ut
+      suspended_tooltip: Sperra
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: Steng ut
+      suspend_button: Sperr
