@@ -2,7 +2,7 @@
 
 ## Installation
 
-`composer require pladask/flarum-ext-norwegian-nynorsk
+`composer require pladask/flarum-ext-norwegian-nynorsk`
 
 ### Compatibility
 
